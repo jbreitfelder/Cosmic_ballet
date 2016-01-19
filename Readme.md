@@ -52,26 +52,26 @@ exactly what you want or discover some really crazy unexpected trajectories. The
 initial conditions are described bellow.
 
 For the two bodies orbiting around each other :
-    - Name of the first one (between quotation marks)
-    - Name of the second one (between quotation marks)
-    - mass of the first one
-    - mass of the second one 
-    - excentricity e of the orbit 
-    - distance between them (if e=0) / semi-major axis (if e>0)
+    * Name of the first one (between quotation marks)
+    * Name of the second one (between quotation marks)
+    * mass of the first one
+    * mass of the second one 
+    * excentricity e of the orbit 
+    * distance between them (if e=0) / semi-major axis (if e>0)
     
 Note : the center of mass of this system is originally at the coordinates (0, 0), 
 and it has a null initial velocity. 
 
 Third body initial conditions :
-    - Name (between quotation marks)
-    - mass 
-    - initial position on the x-axis 
-    - initial position on the y-axis
-    - initial velocity on the x-axis 
-    - initial velocity on the y-axis 
+    * Name (between quotation marks)
+    * mass 
+    * initial position on the x-axis 
+    * initial position on the y-axis
+    * initial velocity on the x-axis 
+    * initial velocity on the y-axis 
     
 Other initial condition :
-    - Period covered by the simulation
+    * Period covered by the simulation
 
 Note : be careful! The longer the period, the longer the computation time! 
 Begin with a low value (typically 5-10 years) and make it bigger if you see the code
