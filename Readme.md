@@ -1,6 +1,8 @@
 # Cosmic ballet - Readme
 ## Author : Joanne Breitfelder
 
+![alt text](https://github.com/jbreitfelder/Cosmic_ballet/blob/master/Examples/Star1-Star2-Planet.png "Example of a planet orbiting in a binary stellar system...")
+
 ---
 ## Introduction :
 
@@ -11,7 +13,7 @@ been made by the author to simplify the initial conditions setting.
 The application also allows you to see some predefined examples :
 
 * A comet enters the Earth/Moon system
-* Betelguese decides to visit the solar system (represented by Jupiter and the Sun)
+* Betelgeuse decides to visit the solar system (represented by Jupiter and the Sun)
 * A planet tries to survive in a binary stellar system 
 
 You can choose between two ways of looking at the trajectories :
@@ -26,10 +28,10 @@ working directory.
 ---
 ## How to run the application ?
 
-1. You need is a working python 2.7 distribution. If you don't have one, you can 
+1. First, you need a working python 2.7 distribution. If you don't have one, you can 
 [download it](https://www.python.org/downloads/) from the Python web page.
 
-2. Download the whole Cosmic Ballet repository and set it as your working directory.
+2. Download the Cosmic Ballet repository and set it as your working directory.
 
 3. Run the "Cosmic_ballet.py" script, see the instructions and enjoy!
 
@@ -39,11 +41,10 @@ to joanne.breitfelder - at - gmail.com :)
 ---
 ## The initial conditions :
 
-It can seem a bit complicated and/or tricky to determine good initial conditions...
-But don't panic! With a bit of practice you will become an expert. The easiest is
-to begin with initial conditions relative to known bodies (e.g. the Sun, Jupiter, 
-Betelgeuse, the Earth), and then modify the initial conditions step-by-step to get
-exactly what you want or discover some really crazy unexpected trajectories. The
+It can seem a bit complicated to determine "good" initial conditions... The easiest
+way to proceed is to begin with known bodies (e.g. the Sun, Jupiter, 
+Betelgeuse, the Earth), and then modify the initial conditions step-by-step to eventually
+get exactly what you want or discover some really crazy unexpected trajectories. The
 initial conditions are described bellow.
 
 For the two bodies orbiting around each other :
@@ -54,7 +55,7 @@ For the two bodies orbiting around each other :
     * excentricity e of the orbit 
     * distance between them (if e=0) / semi-major axis (if e>0)
     
-Note : the center of mass of this system is originally at the coordinates (0, 0), 
+Note : the center of mass of this system is originally at coordinates (0, 0), 
 and it has a null initial velocity. 
 
 Third body initial conditions :
@@ -68,8 +69,8 @@ Third body initial conditions :
 Other initial condition :
     * Period covered by the simulation
 
-Note : be careful! The longer the period, the longer the computation time! 
-Begin with a low value (typically 5-10 years) and make it bigger if you see the code
+Note : be careful! The longer the period, the longer the computation time...
+Begin with a low value (typically 5-10 years) and make it bigger if you see that the code
 runs fast enough. If you are dealing with small planets, satellites or comets, 5 years may 
 already be quite a long period of time to see the evolution of the system.
 
