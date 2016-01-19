@@ -1,10 +1,5 @@
 # Cosmic ballet - Readme
-# Author : Joanne Breitfelder
----
-## Introduction
-## How to run the application ?
-## The initial conditions 
-## Content of the Cosmic ballet repository :
+## Author : Joanne Breitfelder
 
 ---
 ## Introduction :
