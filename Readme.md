@@ -12,16 +12,16 @@ designed so that the two first bodies are orbiting around each other; this choic
 been made by the author to simplify the initial conditions setting. 
 The application also allows you to see some predefined examples :
 
-* A comet enters the Earth/Moon system
-* Betelgeuse decides to visit the solar system (represented by Jupiter and the Sun)
-* A planet tries to survive in a binary stellar system 
+* Comet 67P enters the Earth-Moon system
+* Betelgeuse decides to visit the Jupiter-Sun system
+* An Earth-like planet evolves in a binary system
 
 You can choose between two ways of looking at the trajectories :
 
-* Displaying a plot of the final trajectories
+* Displaying a plot of the final trajectories (recommended at the beginning)
 * See an animation of the trajectories
 
-After you visualize the trajectory you can change the value of an initial condition
+After you visualize the trajectories you can change the value of an initial condition
 and see how it affects the calculation. You can also save the final plot in your 
 working directory.
 
@@ -33,7 +33,7 @@ working directory.
 
 2. Download the Cosmic Ballet repository and set it as your working directory.
 
-3. Run the "Cosmic_ballet.py" script, see the instructions and enjoy!
+3. Run the "Cosmic_ballet.py" script, follow the instructions and enjoy!
 
 4. This application is still under developement.. Please report any kind of bug 
 to joanne.breitfelder - at - gmail.com :)
@@ -48,26 +48,26 @@ get exactly what you want or discover some really crazy unexpected trajectories.
 initial conditions are described bellow.
 
 For the two bodies orbiting around each other :
-    * Name of the first one (between quotation marks)
-    * Name of the second one (between quotation marks)
-    * mass of the first one
-    * mass of the second one 
-    * excentricity e of the orbit 
-    * distance between them (if e=0) / semi-major axis (if e>0)
+* Name of the first one (between quotation marks)
+* Name of the second one (between quotation marks)
+* mass of the first one
+* mass of the second one 
+* excentricity e of the orbit 
+* distance between them (if e=0) / semi-major axis (if e>0)
     
 Note : the center of mass of this system is originally at coordinates (0, 0), 
 and it has a null initial velocity. 
 
 Third body initial conditions :
-    * Name (between quotation marks)
-    * mass 
-    * initial position on the x-axis 
-    * initial position on the y-axis
-    * initial velocity on the x-axis 
-    * initial velocity on the y-axis 
+* Name (between quotation marks)
+* mass 
+* initial position on the x-axis 
+* initial position on the y-axis
+* initial velocity on the x-axis 
+* initial velocity on the y-axis 
     
 Other initial condition :
-    * Period covered by the simulation
+* Period covered by the simulation
 
 Note : be careful! The longer the period, the longer the computation time...
 Begin with a low value (typically 5-10 years) and make it bigger if you see that the code

@@ -185,7 +185,7 @@ if display==1: animation, final_trajectories = True, False
 elif display==2: animation, final_trajectories = False, True
 
 #########################################################
-### Parameters - to be changed by the user
+### Initial conditions 
 #########################################################
 
 ## Pre-defined options :
